@@ -13,7 +13,7 @@ public class CountNoOfFullNodes {
 			return CountFUllNodes(root.left) + CountFUllNodes(root.right) + ((root.left != null && root.right != null) ? 1 : 0);
 	}
 
-	public static void main(String[] args) {
+	public static void main(String[] args) {  
 		// TODO Auto-generated method stub
 		TreeNode left = new TreeNode();
 	    left.val = 20;
